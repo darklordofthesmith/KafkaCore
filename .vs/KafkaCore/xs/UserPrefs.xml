@@ -1,9 +1,5 @@
 ﻿<Properties StartupConfiguration="{6DF32315-539A-4A3A-9A18-D21E16F81DAB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="KafkaCore/Program.cs">
-    <Files>
-      <File FileName="KafkaCore/Program.cs" Line="10" Column="6" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
