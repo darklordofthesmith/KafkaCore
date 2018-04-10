@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  kafkacore:
+    image: kafkacore
+    build:
+      context: .
+      dockerfile: KafkaCore/Dockerfile

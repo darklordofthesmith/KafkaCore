@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <DockerComposeProjectPath>../docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Confluent.Kafka.0.11.3\Confluent.Kafka.0.11.3.nupkg" />
+    <None Remove="Confluent.Kafka.0.11.3\lib\net46\Confluent.Kafka.dll" />
+    <None Remove="Confluent.Kafka.0.11.3\lib\net46\Confluent.Kafka.xml" />
+    <None Remove="Confluent.Kafka.0.11.3\lib\netstandard1.3\Confluent.Kafka.dll" />
+    <None Remove="Confluent.Kafka.0.11.3\lib\netstandard1.3\Confluent.Kafka.xml" />
+    <None Remove="librdkafka.redist.0.11.3\build\librdkafka.redist.props" />
+    <None Remove="librdkafka.redist.0.11.3\build\native\include\librdkafka\rdkafka.h" />
+    <None Remove="librdkafka.redist.0.11.3\CONFIGURATION.md" />
+    <None Remove="librdkafka.redist.0.11.3\LICENSES.txt" />
+    <None Remove="librdkafka.redist.0.11.3\README.md" />
+    <None Remove="librdkafka.redist.0.11.3\build\native\librdkafka.redist.targets" />
+    <None Remove="librdkafka.redist.0.11.3\runtimes\linux-x64\native\debian9-librdkafka.so" />
+    <None Remove="librdkafka.redist.0.11.3\runtimes\linux-x64\native\librdkafka.so" />
+    <None Remove="librdkafka.redist.0.11.3\runtimes\osx-x64\native\librdkafka.dylib" />
+    <None Remove="librdkafka.redist.0.11.3\runtimes\win7-x64\native\librdkafka.dll" />
+    <None Remove="librdkafka.redist.0.11.3\runtimes\win7-x64\native\librdkafkacpp.dll" />
+    <None Remove="librdkafka.redist.0.11.3\runtimes\win7-x64\native\msvcr120.dll" />
+    <None Remove="librdkafka.redist.0.11.3\runtimes\win7-x64\native\zlib.dll" />
+    <None Remove="librdkafka.redist.0.11.3\runtimes\win7-x86\native\librdkafka.dll" />
+    <None Remove="librdkafka.redist.0.11.3\runtimes\win7-x86\native\librdkafkacpp.dll" />
+    <None Remove="librdkafka.redist.0.11.3\runtimes\win7-x86\native\msvcr120.dll" />
+    <None Remove="librdkafka.redist.0.11.3\runtimes\win7-x86\native\zlib.dll" />
+    <None Remove="librdkafka.redist.0.11.3\librdkafka.redist.0.11.3.nupkg" />
+    <None Remove="docker-compose.yml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="0.11.3" />
+  </ItemGroup>
+</Project>
